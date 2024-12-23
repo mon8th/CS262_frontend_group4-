@@ -1,3 +1,9 @@
+## Environment Configuration
+
+This project uses a `.env` file to manage environment-specific settings. Below is an example of the `.env` file configuration required for the project.
+
+### Example `.env` File
+```plaintext
 APP_NAME=Camboevents
 APP_ENV=local
 APP_KEY=base64:VGGyiqmfAodIR64iGbCBZg5S+ALCs2C7Mhy+gMLJaxc=
