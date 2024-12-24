@@ -3,12 +3,12 @@
 namespace Database\Seeders;
 
 use Illuminate\Database\Seeder;
-use App\Models\Review;
+use App\Models\Contact;
 
-class ReviewSeeder extends Seeder
+class ContactSeeder extends Seeder
 {
     public function run(): void
     {
-        Review::factory(100)->create(); // Generate 100 reviews
+        Contact::factory(50)->create();
     }
 }
